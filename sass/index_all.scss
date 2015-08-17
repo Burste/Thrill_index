@@ -1,0 +1,35 @@
+
+*{
+    font-family: Microsoft JhengHei !important;
+    a {
+        color:#2170a2;
+        text-decoration: none;
+    }      /* unvisited link */
+    a:visited {color:#49b3f5;}  /* visited link */
+    a:hover {
+        color:#0c7b1d;
+        font-weight: bold;
+    }
+    a:active {color:#49b3f5;}
+}
+
+
+
+
+
+.horizonMid {
+    transform:translateX(-50%);
+    position: relative;
+    left: 50%;
+}
+
+
+
+#authorImg {
+    background-image: url(../images/poli2.png);
+    background-size:cover;
+    &:hover{
+        background-image: url(../images/poli1.png);
+
+    }
+}

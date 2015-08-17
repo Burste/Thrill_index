@@ -1,0 +1,116 @@
+
+#bgImg {
+    display: none;
+}
+
+body {
+    background-image:url(../images/Subtle-light-patterns-Vol05-PIXEDEN/018-Subtle-light-patterns-Vol04.png), linear-gradient(90deg, rgba(0, 0, 0, .3) 0%, rgba(255, 255, 255,0) 20%, rgba(255, 255, 255,0) 80%, rgba(0, 0, 0, .3) 100%);
+    width: 100%;
+overflow-x: hidden;
+}
+
+
+
+.thrillText {
+    img{
+        width: 70%;
+    }
+}
+
+#slideImg {
+    width: 100%;
+    height: auto;
+}
+
+.chapterNav {
+    text-align: center;
+}
+
+#stories_UlBox {
+    font-weight: bold;
+    #stroyHead {
+        display: inline-block;
+        margin: 0.5rem;
+    }
+    li{
+        display: inline-block;
+        margin: 0.5rem 0.5rem 0.5rem 0;
+        background: red;
+        padding: 0.3rem;
+        border-radius: 0.5rem;
+        cursor: pointer;
+    }
+
+    .storyDis{
+        background: grey;
+        cursor: none;
+    }
+}
+
+.storySelect{
+    border: 1px solid yellow;
+    box-shadow: 2px 2px 3px yellow;
+}
+
+#introBox {
+    box-sizing: border-box;
+    padding: 1rem;
+    width: 90%;
+    line-height: 1.5rem;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-radius: 1rem;
+    background: rgba(255,255,255,0.2);
+
+    h2{
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.1rem;
+    }
+}
+
+
+#thrillSlide {
+    .slideOut {
+        text-align: center;
+        padding: 1rem;
+    }
+}
+
+#chapter_Ul {
+    li {
+        margin: 0.5rem;
+    }
+}
+
+#storySlide {
+    text-align: center;
+}
+
+#authorImg {
+    margin: auto;
+    width: 70vw;
+    height: 60vw;
+}
+
+#authorSlide {
+    box-sizing: border-box;
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+
+
+#imgEmail {
+    width: 5rem;
+}
+
+#folderUl {
+    display: none;
+}
+
+
+
+#returnBtm {
+    display: none;
+}

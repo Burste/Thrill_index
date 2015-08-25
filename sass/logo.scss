@@ -1,0 +1,393 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+$cutColor:black;
+$logoColor: white;
+
+#logoContain {
+//    position: relative;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: 0;
+    width: 100vh;
+    height: 100vh;
+//    background-image: url(../logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+//    overflow: hidden;
+
+    .logoVert{
+        background: $logoColor;
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+
+
+#T1 {
+    left: 20.4%;
+    width: 3.5%;
+    height: 65.4%;
+//    bottom: 0;
+    top: 44.6;
+}
+
+#T2 {
+    left: 24.85%;
+    width: 1.3%;
+    height: 67.6%;
+//    bottom: 0;
+    top:32.4;
+}
+
+#T3 {
+    left: 14.3%;
+    width: 15.7%;
+    height: 1.5%;
+    bottom: 66.4%;
+}
+
+.logoHori {
+    background: $logoColor;
+    position: absolute;
+//    display:none;
+//    opacity: 0.6;
+}
+
+#h1 {
+    left: 31.8%;
+    width: 2.9%;
+    height: 67.8%;
+    top:32.2%;
+}
+
+#h2 {
+    left: 35.4%;
+    width: 1%;
+    height: 59.2%;
+    top: 40.8;
+}
+
+#h3 {
+    left: 40.8%;
+    width: 2.5%;
+    height: 59.2%;
+    top: 40.8%;
+}
+
+#h4 {
+    left: 44%;
+    width: 0.8%;
+    height: 59.2%;
+    top: 40.8%;
+}
+
+#h5 {
+    bottom: 57.6%;
+    width: 9.4%;
+    left: 35.4%;
+    height: 1.6%;
+}
+
+#r1 {
+    left: 48.4%;
+    width: 2.5%;
+    height: 54%;
+    top: 46%;
+}
+
+#r2 {
+    left: 51.45%;
+    width: 0.7%;
+    height: 52.3%;
+    top: 47.7;
+}
+
+#r4 {
+    bottom: 52.95%;
+    width: 7.2%;
+    left: 53.8%;
+    height: 1.2%;
+}
+
+#i1 {
+    left: 63.5%;
+    width: 3.3%;
+    height: 53.6%;
+    top: 46.4;
+}
+
+#i2 {
+    left: 67.2%;
+    width: 1%;
+    height: 53.6%;
+    top: 46.4%;
+}
+
+#l11 {
+    left: 70.7%;
+    width: 2.8%;
+    height: 67.6%;
+    top: 32.4%;
+}
+
+#l12 {
+    left: 74%;
+    width: 1.3%;
+    height: 68%;
+    top: 32.4%;
+}
+
+#l21 {
+    left: 78.6%;
+    width: 2.4%;
+    height: 67.6%;
+    top: 32.4%;
+}
+
+#l22 {
+    left: 81.6%;
+    width: 2.4%;
+    height: 67.6%;
+    top: 32.4%;
+}
+
+.logoCut {
+    position: absolute;
+//    bottom: top;
+    top: 100%;
+    background: $cutColor;
+    width: 100%;
+    height: 28%;
+//    opacity: 0.5;
+    animation: btmCut 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) 4.5s forwards;
+}
+
+@keyframes  btmCut{
+    from{
+        top: 100%;
+    }
+    to{
+        top: 72%;
+    }
+}
+
+#logoCutLeft {
+    transform-origin: 48% top;
+    animation: leftBite 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) 4.5s forwards ,btmCut 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) 4.5s forwards;
+}
+
+@keyframes leftBite{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(46deg);
+    }
+}
+
+#logoCutRight {
+    transform-origin: 51.6% top;
+    animation: rightBite 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) 4.5s forwards ,btmCut 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) 4.5s forwards;
+}
+
+@keyframes rightBite{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(-46deg);
+    }
+}
+
+#r3Box {
+    position: absolute;
+    bottom: 0;
+    width: 10%;
+    height: 54.1%;
+    left:51.4%;
+    overflow: hidden;
+}
+
+#r3IN {
+    position: absolute;
+    background: $logoColor;
+    height: 100%;
+    width: 19%;
+    bottom: 10.3%;
+    transform-origin: left 13.5%;
+    transform: rotate(50deg);
+}
+
+#vertCut {
+    position: absolute;
+    background: $cutColor;
+//    opacity: 0.5;
+    width: 150%;
+    height: 100%;
+    top: 30%;
+    left: 0;
+    transform-origin: top center;
+    animation: vertCut 3s linear forwards;
+}
+
+@keyframes vertCut{
+    from{
+        text-outline: 10%;
+    }
+    to{
+        top: -100%;
+    }
+}
+
+#horiCut {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: $cutColor;
+    animation: horiCut 2s linear 2.1s forwards;
+}
+
+@keyframes horiCut{
+    from{
+        left: 0;
+    }
+    to{
+        left: 100%;
+    }
+}
+
+
+
+body {
+    background: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+#thrillStar {
+    position: absolute;
+    width: 4%;
+    height: 5%;
+    left: 63.9%;
+    bottom: -5%;
+    background-color: deepskyblue;
+    animation: starRise 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) 4s forwards;
+}
+
+@keyframes starRise{
+    from{
+        bottom: -5%;
+    }
+    to{
+        bottom: 55%;
+    }
+}
+
+.outCut {
+    position: absolute;
+    background-color: purple;
+    border: 1rem solid black;
+}
+
+#outCutTop {
+    position: absolute;
+    bottom: 69%;
+    left: -60%;
+    width: 200%;
+    height: 33%;
+    transform-origin: left bottom;
+    transform: rotate(-90deg);
+    animation: outCutTop 1s ease-out 7.5s forwards;
+}
+
+@keyframes outCutTop{
+    0%{
+        transform: rotate(-90deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+#outCutRight {
+    bottom: 100%;
+    left: 81.5%;
+    height: 100%;
+    width: 200%;
+    transform-origin:20% bottom;
+    animation: outCutR 1s ease-out 6s forwards;
+}
+
+@keyframes outCutR{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(134deg);
+    }
+}
+
+#outCutLeft {
+    top: 100%;
+    right: 26%;
+    height: 100%;
+    width: 250%;
+    transform-origin: right top;
+    animation: outCutL 1s ease-out 7s forwards;
+}
+
+@keyframes outCutL{
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(46deg);
+    }
+}
+
+#loading {
+    position: absolute;
+    font-size: 3rem;
+    font-weight: bold;
+    z-index: 5;
+}
+
+#skip {
+    position: absolute;
+    font-size: 2.5rem;
+    color: gray;
+    z-index: 5;
+    cursor: pointer;
+    padding: 0.5rem;
+    border: 0.2rem solid gray;
+    border-radius: 1rem;
+    display: none;
+    animation: skipAct 1.5s linear infinite alternate;
+}
+
+@keyframes skipAct{
+    from{
+        opacity: 0.3;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+
+#loadingBlock {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: black;
+    overflow: hidden;
+    z-index: 10;
+}

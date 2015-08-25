@@ -1,0 +1,3 @@
+@mixin example( $test : 5px ){
+    border-radius: $test;
+}

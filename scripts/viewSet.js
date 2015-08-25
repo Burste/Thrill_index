@@ -1,13 +1,5 @@
 $(function () {
     //圖片遇載
-    $.preload("../images/poli1.png", function () {
-        var stroyNum = stories.length;
-        for (i = 0; i < stroyNum; i++) {
-            $.preload(stories[i].edImg,stories[i].opImg);
-        }
-    });
-
-
 
     viewAct();
 
@@ -44,7 +36,7 @@ $(function () {
         function prot() {
             vwSet("body", 1);
             $("#thrillSlide,#authorSlide").show();
-            $("#bgImg").hide();
+            $("#bgImg,.slogan").hide();
         };
 
     };

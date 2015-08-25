@@ -5,7 +5,8 @@ $(function () {
     var stroyNum = stories.length;
 
     //    故事選單讀取
-    var $storyUl = $("#storyUl");
+    var $storyUl = $("#storyUl"),
+        $slogan = $(".slogan");
 
     for (i = 0; i < stroyNum; i++) {
         if (stories[i].active == true) {
@@ -62,15 +63,15 @@ $(function () {
         $SSsSO = $('#storySlide>.slideOut');
     //開始故事選單
     function storyStart() {
-            $TSandAS.hide();
-            $bgImg.fadeTo(1000, 0.8);
-            var $SSsSB = $("#storySlide>.summonBox");
-            reSummon($SSsSB, $SSsSO, "call");
-            $stUlBox.addClass("sUlBoxAct");
-            $chapterNav.addClass('chapterAct');
-            $introBox.delay(4000).fadeIn(1000);
-        }
-        //結束故事選單
+        $TSandAS.hide();
+        $bgImg.fadeTo(1000, 0.8);
+        var $SSsSB = $("#storySlide>.summonBox");
+        reSummon($SSsSB, $SSsSO, "call");
+        $stUlBox.addClass("sUlBoxAct");
+        $chapterNav.addClass('chapterAct');
+        $introBox.delay(4000).fadeIn(1000);
+    }
+    //結束故事選單
     function storyReset() {
         var $SSsSB = $("#storySlide>.summonBox");
         reSummon($SSsSB, $SSsSO, "close");
@@ -139,18 +140,21 @@ $(function () {
 
     $returnBtm = $("#returnBtm");
 
+    $returnBtm.click(function () {
+        $slogan.delay(3000).fadeIn(1500);
+        folderState = 0;
+        authorReset();
+        storyReset();
+        thrillReset();
+        $(this).hide(500, function () {
+            $folders.removeClass("folderAct");
+        });
+    });
 
     $folders.click(function () {
+        $slogan.fadeOut();
 
-        $returnBtm.click(function () {
-            folderState = 0;
-            authorReset();
-            storyReset();
-            thrillReset();
-            $(this).hide(500, function () {
-                $folders.removeClass("folderAct");
-            });
-        });
+
 
         var folderSelection = $(this).index() + 1;
         //資料夾展開時

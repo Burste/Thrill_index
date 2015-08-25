@@ -215,6 +215,7 @@ body {
     }
     h2 {
         background: brown;
+        background-image: linear-gradient(150deg, #bf3737 0%, #841a1a 100%);
     }
 }
 
@@ -237,8 +238,10 @@ body {
         background-image: linear-gradient(150deg, #b2ac3c 0%, #6f6a0a 100%);
     }
     img {
+        border-radius: 3% 0 3% 3%;
         height: 100%;
         width: auto;
+        max-width: 100%;
     }
 }
 
@@ -256,6 +259,7 @@ body {
     }
     h2 {
         background: #1ba39e;
+        background-image: linear-gradient(150deg, #23b9b3 0%, #0f7c78 100%);
     }
     img {
         position: relative;
@@ -423,11 +427,11 @@ body {
 }
 
 .thrillText {
-    padding-bottom: 5rem;
+//    padding-bottom: 5rem;
     width: 60vw;
     img {
-        margin-top: 2rem;
-        height: 28vh;
+        margin-top: -2.5vh;
+        height: 23vh;
     }
 }
 
@@ -513,6 +517,7 @@ body {
 }
 
 #allsList {
+    margin: 1vh;
     p {
         font-size: 2vh;
         line-height: 3.2vh;
@@ -533,18 +538,39 @@ body {
 
 #bgStyle1 {
     position: absolute;
-    left: 5rem;
-    top: 2rem;
+    left: 5vw;
+    top: 4vh;
     font-weight: bold;
-    font-size: 5rem;
+    font-size: 9.5vh;
     color: rgba(69, 68, 68, 0.61);
 }
 
 #bgStyle2 {
     position: absolute;
-    right: 3rem;
+    right: 5vw;
     bottom: 5vh;
     font-weight: bold;
-    font-size: 6rem;
+    font-size: 7vw;
     color: rgba(69, 68, 68, 0.61);
+}
+
+#loading {
+    bottom: 2rem;
+    left: 3rem;
+}
+
+#skip {
+    bottom: 2rem;
+    right: 3rem;
+}
+
+
+
+#portTitle {
+//    display: none;
+    font-size: 5.5vh;
+}
+
+.authorH2 {
+    display: none;
 }

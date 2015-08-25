@@ -5,6 +5,7 @@
 
 body {
     background-image:url(../images/Subtle-light-patterns-Vol05-PIXEDEN/018-Subtle-light-patterns-Vol04.png), linear-gradient(90deg, rgba(0, 0, 0, .3) 0%, rgba(255, 255, 255,0) 20%, rgba(255, 255, 255,0) 80%, rgba(0, 0, 0, .3) 100%);
+    background-attachment: fixed;
     width: 100%;
 overflow-x: hidden;
 }
@@ -12,7 +13,9 @@ overflow-x: hidden;
 
 
 .thrillText {
+    line-height: 1.5rem;
     img{
+        margin-top: -0.5rem;
         width: 70%;
     }
 }
@@ -24,10 +27,26 @@ overflow-x: hidden;
 
 .chapterNav {
     text-align: center;
+    li{
+//        position: relative;
+//        left: 50%;
+//        transform: translateX(-50%);
+        width: 30%;
+        display: inline-block;
+        padding: 0.3rem;
+        font-weight: bold;
+        border-radius: 1rem;
+        border: 0.2rem solid white;
+        margin: auto;
+        width: 10rem;
+    }
 }
 
 #stories_UlBox {
+    background-color: black;
     font-weight: bold;
+    margin: 0.5rem 0;
+    color: white;
     #stroyHead {
         display: inline-block;
         margin: 0.5rem;
@@ -35,7 +54,7 @@ overflow-x: hidden;
     li{
         display: inline-block;
         margin: 0.5rem 0.5rem 0.5rem 0;
-        background: red;
+        background: green;
         padding: 0.3rem;
         border-radius: 0.5rem;
         cursor: pointer;
@@ -61,6 +80,7 @@ overflow-x: hidden;
     border-left: 1px solid black;
     border-radius: 1rem;
     background: rgba(255,255,255,0.2);
+    text-align: center;
 
     h2{
         text-align: center;
@@ -89,8 +109,8 @@ overflow-x: hidden;
 
 #authorImg {
     margin: auto;
-    width: 70vw;
-    height: 60vw;
+    width: 25rem;
+    height: 22rem;
 }
 
 #authorSlide {
@@ -113,4 +133,65 @@ overflow-x: hidden;
 
 #returnBtm {
     display: none;
+}
+
+.slogan {
+    display: none;
+}
+
+.footer {
+    background: black;
+    color: white;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.authorText {
+    position: relative;
+    background-color: rgba(5, 173, 160, 0.51);
+    padding-bottom:3rem;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+
+    h2{
+        font-weight: bold;
+        font-size: 1.4rem;
+        margin-top: -1rem;
+        margin-bottom: 1rem;
+    }
+    p{
+        line-height: 1.5rem;
+    }
+}
+
+#skip {
+    bottom: 2rem;
+    left: 2rem;
+}
+
+#loading {
+    text-align: center;
+    top: 20%;
+    left: 0;
+    right: 0;
+}
+
+
+
+
+
+#portTitle {
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.viewHeight {
+    display: none;
+}
+
+.authorH2 {
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
 }

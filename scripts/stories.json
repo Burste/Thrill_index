@@ -1,0 +1,59 @@
+var stories = [
+    {
+        "name": "Remiel",
+        "active": 1,
+        "file": "Remiel",
+        "edImg": "./images/bbuOs.jpg",
+        "opImg": "./images/ch02ad.jpg",
+        "intro": "<h2>Remeil</h2><p>從世界的頂點墜落，眼前璀璨的未來與自己一同粉碎。<br>當他發現世界已無法同過去那般耀眼時...<br>故事就此開始</p>",
+        "chapter": [
+            {
+                "chapterName": "chapter1",
+                "fileName":"ch01.html"
+            },
+            {
+                "chapterName": "chapter2",
+                "fileName":"ch02.html"
+            }
+
+        ]
+    },
+    {
+        "name": "斷耳奇譚（預定）",
+        "active": 0,
+        "file": "short",
+        "edImg": "./images/GGed.jpg",
+        "opImg": "./images/GGop.gif",
+        "intro": "<h2>畸短篇</h2><p>一些過去留下的詭異短篇<br></p>",
+         "chapter": [
+            {
+                "chapterName": "chapter1",
+                "fileName":"GGdetect"
+            },
+            {
+                "chapterName": "chapter2",
+                "fileName":"GGdetect"
+            }
+
+        ]
+    },
+    {
+        "name": "畸短篇(整理中)",
+        "active": 0,
+        "file": "short",
+        "edImg": "./images/GGed.jpg",
+        "opImg": "./images/GGop.gif",
+        "intro": "<h2>畸短篇</h2><p>一些過去留下的詭異短篇<br></p>",
+         "chapter": [
+            {
+                "chapterName": "chapter1",
+                "fileName":"GGdetect"
+            },
+            {
+                "chapterName": "chapter2",
+                "fileName":"GGdetect"
+            }
+
+        ]
+}
+]

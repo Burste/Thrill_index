@@ -35,6 +35,11 @@ $(function () {
 
         function prot() {
             vwSet("body", 1);
+            vhSet("body", 1);
+            $("#authorImg").css({
+                width : 0.8*vw,
+                height : 0.7*vw
+            });
             $("#thrillSlide,#authorSlide").show();
             $("#bgImg,.slogan").hide();
         };

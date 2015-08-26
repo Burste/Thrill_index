@@ -1,3 +1,4 @@
+$bodyBackground: url(../images/paperbg.png);
 
 *{
     font-family: Microsoft JhengHei !important;
@@ -32,4 +33,8 @@
         background-image: url(../images/poli1.png);
 
     }
+}
+
+body {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, .25) 0%, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0) 80%, rgba(0, 0, 0, .25) 100%),$bodyBackground;
 }

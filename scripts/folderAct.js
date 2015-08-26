@@ -151,7 +151,13 @@ $(function () {
         });
     });
 
-    $folders.click(function () {
+    var clickType = 'click';
+    if (/iPad/i.test(navigator.userAgent)){
+        clickType = 'click touchstart';
+    }
+
+
+    $folders.bind(clickType,function () {
         $slogan.fadeOut();
 
 

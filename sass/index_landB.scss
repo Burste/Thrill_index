@@ -3,7 +3,6 @@ $summonWidth: 0.5rem;
 $thrillColor: orange;
 $storiesColor: #0bb90b;
 $writerColor: #b543d0;
-$bodyBackground: url(../images/Subtle-light-patterns-Vol05-PIXEDEN/017-Subtle-light-patterns-Vol04.png);
 .header {
     position: fixed;
     top: 0;
@@ -32,8 +31,6 @@ $bodyBackground: url(../images/Subtle-light-patterns-Vol05-PIXEDEN/017-Subtle-li
 
 body {
     position: relative;
-    //    background-image:url(../images/Subtle-light-patterns-Vol05-PIXEDEN/018-Subtle-light-patterns-Vol04.png), linear-gradient(90deg, rgba(0, 0, 0, .3) 0%, rgba(255, 255, 255,0) 20%, rgba(255, 255, 255,0) 80%, rgba(0, 0, 0, .3) 100%);
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, .25) 0%, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0) 80%, rgba(0, 0, 0, .25) 100%),$bodyBackground;
     overflow: hidden;
 }
 

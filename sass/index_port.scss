@@ -4,10 +4,9 @@
 }
 
 body {
-    background-image:url(../images/Subtle-light-patterns-Vol05-PIXEDEN/018-Subtle-light-patterns-Vol04.png), linear-gradient(90deg, rgba(0, 0, 0, .3) 0%, rgba(255, 255, 255,0) 20%, rgba(255, 255, 255,0) 80%, rgba(0, 0, 0, .3) 100%);
     background-attachment: fixed;
     width: 100%;
-overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 
@@ -149,7 +148,8 @@ overflow-x: hidden;
 .authorText {
     position: relative;
     background-color: rgba(5, 173, 160, 0.51);
-    padding-bottom:3rem;
+//    padding-bottom:3rem;
+    padding: 0 1rem 3rem 1rem;
     margin-bottom: 2rem;
     border-radius: 0.5rem;
 
@@ -171,7 +171,7 @@ overflow-x: hidden;
 
 #loading {
     text-align: center;
-    top: 20%;
+    bottom: 75%;
     left: 0;
     right: 0;
 }
@@ -192,6 +192,9 @@ overflow-x: hidden;
 
 .authorH2 {
     position: absolute;
+    font-size: 1.3rem;
+    font-weight: 500;
     left: 1rem;
     top: 1rem;
+    color:#80796f;
 }

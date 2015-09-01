@@ -1,0 +1,31 @@
+/* line 5, ../../sass/resume/resume_all.scss */
+.thrillText h3 {
+  line-height: 3rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: left;
+}
+/* line 11, ../../sass/resume/resume_all.scss */
+.thrillText h4 {
+  color: dimgray;
+}
+/* line 14, ../../sass/resume/resume_all.scss */
+.thrillText p {
+  text-indent: 2rem;
+  text-align: left;
+}
+
+/* line 22, ../../sass/resume/resume_all.scss */
+#introBox {
+  text-align: left;
+}
+/* line 24, ../../sass/resume/resume_all.scss */
+#introBox h2 {
+  text-align: center;
+}
+
+/* line 31, ../../sass/resume/resume_all.scss */
+.authorText p {
+  text-indent: 2rem;
+  text-align: left;
+}

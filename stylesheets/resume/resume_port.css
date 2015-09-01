@@ -1,0 +1,29 @@
+/* line 2, ../../sass/resume/resume_port.scss */
+.authorH2 {
+  position: relative;
+}
+
+/* line 7, ../../sass/resume/resume_port.scss */
+.authorText h3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-top: 1rem;
+  font-weight: 600;
+  text-align: left;
+}
+/* line 14, ../../sass/resume/resume_port.scss */
+.authorText p {
+  margin: 1rem 0;
+  text-indent: 2rem;
+  text-align: left;
+}
+
+/* line 21, ../../sass/resume/resume_port.scss */
+.slideOut {
+  position: relative;
+}
+
+/* line 25, ../../sass/resume/resume_port.scss */
+.thrillText {
+  padding: 1rem 2rem 3rem 2rem;
+}

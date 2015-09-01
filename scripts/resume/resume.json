@@ -1,0 +1,50 @@
+var stories = [
+    {
+        "name": "Remiel",
+        "active": 1,
+        "file": "Remiel",
+        "edImg": "./images/bbuOs.jpg",
+        "opImg": "./images/ch02ad.jpg",
+        "intro": "<h2>故事展演平台</h2><p>一個專門展演小說故事的平台，由於希望毫不受限的達成原始設計構想，所以未使用任何框架。目前完成度最高的作品。</p><p>除了使用SweetAlert跟jquery.easing外，網站所有內容皆由自己獨立撰寫繪製完成。</p>",
+        "chapter": [
+            {
+                "chapterName": "第一章",
+                "fileName":"ch01.html"
+            },
+            {
+                "chapterName": "第二章",
+                "fileName":"ch02.html"
+            }
+
+        ]
+    },
+    {
+        "name": "女王桃樂絲(宣傳網頁)",
+        "active": 1,
+        "file": "herMajesty",
+        "edImg": "./images/resume/ttED.png",
+        "opImg": "./images/resume/ttOP.png",
+        "intro": "<h2>女王桃樂絲宣傳網站</h2><p>半年前基於個人興趣替漫畫家好友試作的宣傳網站。</p><p>漫畫家僅提供原始圖檔，網頁內容皆由我獨立設計製作。</p><p>（不過當時做完才意識到以app形式架構此類網站是個錯誤...）</p>",
+        "chapter": [
+            {
+                "chapterName": "宣傳首頁",
+                "fileName":"index.html"
+            }
+        ]
+    },
+    {
+        "name": "子彈互擊小遊戲",
+        "active": 1,
+        "file": "canvasGame",
+        "edImg": "./images/resume/canvasED.jpg",
+        "opImg": "./images/resume/canvasOP.png",
+        "intro": "<h2>子彈互擊(手機)</h2><p>玩家要以兩條偵測線來預判敵方子彈的彈道，如果能在敵方子彈擊中我方前準確發射，便能消去對方攻擊並且擊中敵人。</p><p>（由於是設定給手機玩的，沒有幫橫式畫面作特別調教）</p>",
+         "chapter": [
+            {
+                "chapterName": "開始遊戲",
+                "fileName":"index.html"
+            }
+
+        ]
+    }
+]

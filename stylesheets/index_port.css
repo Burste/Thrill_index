@@ -1,0 +1,213 @@
+/* line 2, ../sass/index_port.scss */
+#bgImg {
+  display: none;
+}
+
+/* line 6, ../sass/index_port.scss */
+body {
+  background-attachment: fixed;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* line 14, ../sass/index_port.scss */
+.thrillText {
+  line-height: 1.5rem;
+  width: 100%;
+  padding: 0 2rem;
+  box-sizing: border-box;
+}
+/* line 19, ../sass/index_port.scss */
+.thrillText img {
+  margin-top: -0.5rem;
+  width: 70%;
+}
+
+/* line 25, ../sass/index_port.scss */
+#slideImg {
+  width: 100%;
+  height: auto;
+}
+
+/* line 30, ../sass/index_port.scss */
+.chapterNav {
+  text-align: center;
+}
+/* line 32, ../sass/index_port.scss */
+.chapterNav li {
+  width: 30%;
+  display: inline-block;
+  padding: 0.3rem;
+  font-weight: bold;
+  border-radius: 1rem;
+  border: 0.2rem solid white;
+  margin: auto;
+  width: 10rem;
+}
+
+/* line 47, ../sass/index_port.scss */
+#stories_UlBox {
+  background-color: black;
+  font-weight: bold;
+  margin: 0.5rem 0;
+  color: white;
+}
+/* line 52, ../sass/index_port.scss */
+#stories_UlBox #stroyHead {
+  display: inline-block;
+  margin: 0.5rem;
+}
+/* line 56, ../sass/index_port.scss */
+#stories_UlBox li {
+  display: inline-block;
+  margin: 0.5rem 0.5rem 0.5rem 0;
+  background: green;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+/* line 65, ../sass/index_port.scss */
+#stories_UlBox .storyDis {
+  background: grey;
+  cursor: none;
+}
+
+/* line 71, ../sass/index_port.scss */
+.storySelect {
+  border: 1px solid yellow;
+  box-shadow: 2px 2px 3px yellow;
+}
+
+/* line 76, ../sass/index_port.scss */
+#introBox {
+  box-sizing: border-box;
+  padding: 1rem;
+  width: 90%;
+  line-height: 1.5rem;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.2);
+  text-align: center;
+}
+/* line 87, ../sass/index_port.scss */
+#introBox h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+/* line 96, ../sass/index_port.scss */
+#thrillSlide .slideOut {
+  width: 100%;
+  text-align: center;
+}
+
+/* line 104, ../sass/index_port.scss */
+#chapter_Ul li {
+  margin: 0.5rem;
+}
+
+/* line 109, ../sass/index_port.scss */
+#storySlide {
+  text-align: center;
+}
+
+/* line 113, ../sass/index_port.scss */
+#authorImg {
+  margin: auto;
+  width: 25rem;
+  height: 22rem;
+}
+
+/* line 119, ../sass/index_port.scss */
+#authorSlide {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+/* line 128, ../sass/index_port.scss */
+#imgEmail {
+  width: 5rem;
+}
+
+/* line 132, ../sass/index_port.scss */
+#folderUl {
+  display: none;
+}
+
+/* line 138, ../sass/index_port.scss */
+#returnBtm {
+  display: none;
+}
+
+/* line 142, ../sass/index_port.scss */
+.slogan {
+  display: none;
+}
+
+/* line 146, ../sass/index_port.scss */
+.footer {
+  background: black;
+  color: white;
+  text-align: center;
+  line-height: 2rem;
+}
+
+/* line 153, ../sass/index_port.scss */
+.authorText {
+  position: relative;
+  background-color: rgba(5, 173, 160, 0.51);
+  padding: 0 1rem 3rem 1rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+}
+/* line 160, ../sass/index_port.scss */
+.authorText h2 {
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+}
+/* line 166, ../sass/index_port.scss */
+.authorText p {
+  line-height: 1.5rem;
+}
+
+/* line 171, ../sass/index_port.scss */
+#skip {
+  bottom: 2rem;
+  left: 2rem;
+}
+
+/* line 176, ../sass/index_port.scss */
+#loading {
+  text-align: center;
+  bottom: 75%;
+  left: 0;
+  right: 0;
+}
+
+/* line 187, ../sass/index_port.scss */
+#portTitle {
+  margin-top: 1rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* line 193, ../sass/index_port.scss */
+.viewHeight {
+  display: none;
+}
+
+/* line 197, ../sass/index_port.scss */
+.authorH2 {
+  position: absolute;
+  font-size: 1.3rem;
+  font-weight: 500;
+  left: 1rem;
+  top: 1rem;
+  color: #80796f;
+}

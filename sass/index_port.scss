@@ -13,6 +13,9 @@ body {
 
 .thrillText {
     line-height: 1.5rem;
+    width: 100%;
+    padding: 0 2rem;
+    box-sizing:border-box;
     img{
         margin-top: -0.5rem;
         width: 70%;
@@ -91,8 +94,9 @@ body {
 
 #thrillSlide {
     .slideOut {
+        width: 100%;
         text-align: center;
-        padding: 1rem;
+//        padding: 1rem;
     }
 }
 
@@ -113,6 +117,7 @@ body {
 }
 
 #authorSlide {
+    width: 100%;
     box-sizing: border-box;
     padding: 3rem 1rem;
     text-align: center;
@@ -148,7 +153,6 @@ body {
 .authorText {
     position: relative;
     background-color: rgba(5, 173, 160, 0.51);
-//    padding-bottom:3rem;
     padding: 0 1rem 3rem 1rem;
     margin-bottom: 2rem;
     border-radius: 0.5rem;
@@ -198,3 +202,5 @@ body {
     top: 1rem;
     color:#80796f;
 }
+
+

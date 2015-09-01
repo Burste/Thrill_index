@@ -1,0 +1,46 @@
+/* line 3, ../sass/index_all.scss */
+* {
+  font-family: Microsoft JhengHei !important;
+  /* unvisited link */
+  /* visited link */
+}
+/* line 5, ../sass/index_all.scss */
+* a {
+  color: #2170a2;
+  text-decoration: none;
+}
+/* line 9, ../sass/index_all.scss */
+* a:visited {
+  color: #49b3f5;
+}
+/* line 10, ../sass/index_all.scss */
+* a:hover {
+  color: #0c7b1d;
+  font-weight: bold;
+}
+/* line 14, ../sass/index_all.scss */
+* a:active {
+  color: #49b3f5;
+}
+
+/* line 21, ../sass/index_all.scss */
+.horizonMid {
+  transform: translateX(-50%);
+  position: relative;
+  left: 50%;
+}
+
+/* line 29, ../sass/index_all.scss */
+#authorImg {
+  background-image: url(../images/poli2.png);
+  background-size: cover;
+}
+/* line 32, ../sass/index_all.scss */
+#authorImg:hover {
+  background-image: url(../images/poli1.png);
+}
+
+/* line 38, ../sass/index_all.scss */
+body {
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.25) 0%, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0) 80%, rgba(0, 0, 0, 0.25) 100%), url(../images/paperbg.png);
+}

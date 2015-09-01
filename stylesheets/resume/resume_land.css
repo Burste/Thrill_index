@@ -1,0 +1,33 @@
+/* line 2, ../../sass/resume/resume_land.scss */
+.authorText {
+  transform: translateY(-50%);
+  position: relative;
+  top: 50%;
+  width: 600px;
+  padding-bottom: 5rem;
+}
+/* line 8, ../../sass/resume/resume_land.scss */
+.authorText h3 {
+  font-size: 2.5vh;
+  line-height: 3vh;
+  margin-top: 2vh;
+  font-weight: 600;
+  text-align: left;
+}
+/* line 16, ../../sass/resume/resume_land.scss */
+.authorText p {
+  margin: 0.5rem 0;
+  font-size: 2.1vh !important;
+}
+
+/* line 24, ../../sass/resume/resume_land.scss */
+#introBox p {
+  text-indent: 2.2vh;
+  font-size: 2.2vh;
+  line-height: 3.5vh;
+}
+
+/* line 33, ../../sass/resume/resume_land.scss */
+.thrillText {
+  width: 500px;
+}
